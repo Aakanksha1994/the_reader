@@ -9,7 +9,7 @@ async function main() {
       }
       root.textContent = "Summarizing…";
       const res = await fetch(
-        "http://127.0.0.1:8000/analyze?url=" + encodeURIComponent(url)
+        "https://the-reader-focus.fly.dev/analyze?url=" + encodeURIComponent(url)
       );
       if (!res.ok) {
         const txt = await res.text();

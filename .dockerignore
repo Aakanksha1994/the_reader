@@ -1,0 +1,7 @@
+# flyctl launch added from .venv/.gitignore
+# Created by venv; see https://docs.python.org/3/library/venv.html
+.venv/**/*
+
+# flyctl launch added from app/.gitignore
+app/**/.env
+fly.toml

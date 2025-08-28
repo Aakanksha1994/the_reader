@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+playwright==1.55.0
+trafilatura
+lxml
+python-dotenv
+pydantic
+openai
